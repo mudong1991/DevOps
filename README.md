@@ -1,4 +1,4 @@
-# [Django for DevOps][docs]
+# Django for DevOps
 
 # About
 

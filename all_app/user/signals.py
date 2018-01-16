@@ -66,6 +66,7 @@ def _get_builtin_permissions(opts):
     By default, this is ('add', 'change', 'delete')
     """
     perms = []
+    action_dict = settings.ACTION_DICT
     for action in opts.default_permissions:
         perms.append((
             get_permission_codename(action, opts),
@@ -135,7 +136,7 @@ def create_permissions(app_config, verbosity=2, interactive=True, using=DEFAULT_
 
 
 def modified_permission(sender, **kwargs):
-    """修正权限中的名称"""
+    """修正权限表"""
     action_dict = settings.ACTION_DICT
 
     ContentType = global_apps.get_model('contenttypes', 'ContentType')

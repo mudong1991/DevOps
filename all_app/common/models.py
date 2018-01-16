@@ -16,7 +16,7 @@ class File(CoreModel):
     class Meta:
         verbose_name = verbose_name_plural = '文件'
         default_permissions = ()
-        permissions = custom_model_permission('menu', verbose_name, ['read', 'add', 'delete', 'change'])
+        permissions = custom_model_permission('file', verbose_name, ['read', 'add', 'delete', 'change'])
 
 
 class Province(CoreModel):
@@ -34,7 +34,7 @@ class Province(CoreModel):
     class Meta:
         verbose_name = verbose_name_plural = '省'
         default_permissions = ()
-        permissions = custom_model_permission('menu', verbose_name, ['read', 'add', 'delete', 'change'])
+        permissions = custom_model_permission('province', verbose_name, ['read', 'add', 'delete', 'change'])
 
     def __str__(self):
         return self.name
@@ -56,7 +56,7 @@ class City(CoreModel):
     class Meta:
         verbose_name = verbose_name_plural = '市'
         default_permissions = ()
-        permissions = custom_model_permission('menu', verbose_name, ['read', 'add', 'delete', 'change'])
+        permissions = custom_model_permission('city', verbose_name, ['read', 'add', 'delete', 'change'])
 
     def __str__(self):
         return self.name
@@ -78,7 +78,7 @@ class County(CoreModel):
     class Meta:
         verbose_name = verbose_name_plural = '区县'
         default_permissions = ()
-        permissions = custom_model_permission('menu', verbose_name, ['read', 'add', 'delete', 'change'])
+        permissions = custom_model_permission('county', verbose_name, ['read', 'add', 'delete', 'change'])
 
     def __str__(self):
         return self.name

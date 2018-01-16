@@ -51,7 +51,7 @@ class Role(CoreModel):
     class Meta:
         verbose_name = verbose_name_plural = '角色'
         default_permissions = ()
-        permissions = custom_model_permission('menu', verbose_name, ['read', 'add', 'delete', 'change'])
+        permissions = custom_model_permission('role', verbose_name, ['read', 'add', 'delete', 'change'])
 
 
 class Organization(CoreModel):
@@ -69,7 +69,7 @@ class Organization(CoreModel):
         unique_together = ('name', 'parent_organization',)
         verbose_name = verbose_name_plural = '组织'
         default_permissions = ()
-        permissions = custom_model_permission('menu', verbose_name, ['read', 'add', 'delete', 'change'])
+        permissions = custom_model_permission('organization', verbose_name, ['read', 'add', 'delete', 'change'])
 
 
 class AbstractUser(AbstractBaseUser, PermissionsMixin, CoreModel):
@@ -120,7 +120,7 @@ class User(AbstractUser):
         permissions = [('group_manage', '权限组管理'),
                        ('role_manage', '角色管理'),
                        ('organization_manage', '组织管理')
-                       ] + custom_model_permission('menu', verbose_name, ['read', 'add', 'delete', 'change'])
+                       ] + custom_model_permission('user', verbose_name, ['read', 'add', 'delete', 'change'])
 
 
 class OperationLog(CoreModel):
@@ -130,4 +130,4 @@ class OperationLog(CoreModel):
     class Meta:
         verbose_name = verbose_name_plural = '操作日志'
         default_permissions = ()
-        permissions = custom_model_permission('menu', verbose_name, ['read', 'add', 'delete', 'change'])
+        permissions = custom_model_permission('operationlog', verbose_name, ['read', 'add', 'delete', 'change'])

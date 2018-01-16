@@ -7911,12 +7911,9 @@
       <change beforePath="" afterPath="$PROJECT_DIR$/venv/pyvenv.cfg" />
     </list>
     <list default="true" id="5a18a1ff-2871-43e4-a34c-dd4fbb7fded1" name="Default" comment="部署文件">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/all_app/common/migrations/0002_auto_20180116_1024.py" afterPath="$PROJECT_DIR$/all_app/common/migrations/0002_auto_20180116_1713.py" />
-      <change beforePath="$PROJECT_DIR$/all_app/common/models.py" afterPath="$PROJECT_DIR$/all_app/common/models.py" />
-      <change beforePath="$PROJECT_DIR$/all_app/user/migrations/0002_auto_20180116_1024.py" afterPath="$PROJECT_DIR$/all_app/user/migrations/0002_auto_20180116_1713.py" />
-      <change beforePath="$PROJECT_DIR$/all_app/user/models.py" afterPath="$PROJECT_DIR$/all_app/user/models.py" />
-      <change beforePath="$PROJECT_DIR$/all_app/user/signals.py" afterPath="$PROJECT_DIR$/all_app/user/signals.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/DevOps/settings.py" afterPath="$PROJECT_DIR$/DevOps/settings.py" />
+      <change beforePath="$PROJECT_DIR$/all_app/user/views.py" afterPath="$PROJECT_DIR$/all_app/user/views.py" />
       <change beforePath="$PROJECT_DIR$/media/logs/debug.log" afterPath="$PROJECT_DIR$/media/logs/debug.log" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -7938,58 +7935,7 @@
     <option name="myModuleName" value="DevOps" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/all_app/user/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="19" column="34" lean-forward="false" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/all_app/user/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="33" column="51" lean-forward="false" selection-start-line="33" selection-start-column="51" selection-end-line="33" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="signals.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/all_app/user/signals.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1060">
-              <caret line="68" column="38" lean-forward="false" selection-start-line="68" selection-start-column="38" selection-end-line="68" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/all_app/user/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="960">
-              <caret line="53" column="51" lean-forward="false" selection-start-line="53" selection-start-column="51" selection-end-line="53" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/all_app/common/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="18" column="51" lean-forward="false" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -8000,8 +7946,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>is_a</find>
-      <find>permissions</find>
       <find>auto_now_add</find>
       <find>Meta</find>
       <find>add</find>
@@ -8030,6 +7974,8 @@
       <find>custom_model_permission</find>
       <find>code_name</find>
       <find>exist</find>
+      <find>LOGIN_TIME_OUT</find>
+      <find>VERIFY_IMG_URL</find>
     </findStrings>
     <dirStrings>
       <dir>E:\myWorkspace\python\DevOps\all_app</dir>
@@ -8063,10 +8009,8 @@
         <option value="$PROJECT_DIR$/all_app/utils/time_utils.py" />
         <option value="$PROJECT_DIR$/all_app/utils/common_utils.py" />
         <option value="$PROJECT_DIR$/all_app/user/__init__.py" />
-        <option value="$PROJECT_DIR$/all_app/user/views.py" />
         <option value="$PROJECT_DIR$/all_app/user/tests.py" />
         <option value="$PROJECT_DIR$/all_app/user/migrate_base_data.py" />
-        <option value="$PROJECT_DIR$/DevOps/settings.py" />
         <option value="$PROJECT_DIR$/all_app/utils/permission_classes.py" />
         <option value="$PROJECT_DIR$/all_app/user/apps.py" />
         <option value="$PROJECT_DIR$/all_app/test.py" />
@@ -8077,6 +8021,8 @@
         <option value="$PROJECT_DIR$/all_app/user/models.py" />
         <option value="$PROJECT_DIR$/all_app/common/models.py" />
         <option value="$PROJECT_DIR$/all_app/user/signals.py" />
+        <option value="$PROJECT_DIR$/DevOps/settings.py" />
+        <option value="$PROJECT_DIR$/all_app/user/views.py" />
       </list>
     </option>
   </component>
@@ -8087,8 +8033,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="402" />
-    <option name="y" value="48" />
+    <option name="x" value="536" />
+    <option name="y" value="69" />
     <option name="width" value="1693" />
     <option name="height" value="965" />
   </component>
@@ -8110,7 +8056,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -8121,13 +8066,7 @@
             <path>
               <item name="DevOps" type="b2602c69:ProjectViewProjectNode" />
               <item name="DevOps" type="462c0819:PsiDirectoryNode" />
-              <item name="all_app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DevOps" type="b2602c69:ProjectViewProjectNode" />
               <item name="DevOps" type="462c0819:PsiDirectoryNode" />
-              <item name="all_app" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -8135,11 +8074,12 @@
         <option name="show-excluded-files" value="false" />
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -8260,17 +8200,17 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
         <env name="DJANGO_SETTINGS_MODULE" value="DevOps.settings" />
+        <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="E:\myWorkspace\python\DevOps\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="DevOps" />
       <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8000" />
+      <option name="port" value="8002" />
       <option name="host" value="" />
       <option name="additionalOptions" value="" />
       <option name="browserUrl" value="" />
@@ -8366,7 +8306,14 @@
       <option name="project" value="LOCAL" />
       <updated>1516092930896</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="权限修改">
+      <created>1516094099684</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1516094099684</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView">
@@ -8379,22 +8326,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="402" y="48" width="1693" height="965" extended-state="0" />
+    <frame x="536" y="69" width="1693" height="965" extended-state="0" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16471963" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38308457" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35155278" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35074627" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15309247" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15676668" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="manage.py@DevOps" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24502487" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -8403,6 +8349,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18925233" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="manage.py@DevOps" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24502487" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -8420,7 +8367,8 @@
     <MESSAGE value="删除test" />
     <MESSAGE value="说明文件" />
     <MESSAGE value="部署文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="部署文件" />
+    <MESSAGE value="权限修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="权限修改" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -8429,13 +8377,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/core/cache/backends/db.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/all_app/core/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -8626,16 +8567,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DevOps/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="203" column="11" lean-forward="false" selection-start-line="203" selection-start-column="0" selection-end-line="203" selection-end-column="11" />
-          <folding>
-            <element signature="e#5644#6357#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/all_app/utils/common_utils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
@@ -8703,7 +8634,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -8712,7 +8642,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -8720,7 +8649,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -8728,7 +8656,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -8736,7 +8663,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
           <caret line="16" column="12" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -8744,7 +8670,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -8752,7 +8677,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
           <caret line="1" column="23" lean-forward="false" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -8761,7 +8685,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="60">
             <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -8771,9 +8694,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-          <folding>
-            <element signature="e#22#31#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -8781,15 +8701,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="19" column="34" lean-forward="false" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/all_app/user/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="33" column="51" lean-forward="false" selection-start-line="33" selection-start-column="51" selection-end-line="33" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -8805,7 +8716,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="18" column="51" lean-forward="false" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -8813,7 +8723,31 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1060">
           <caret line="68" column="38" lean-forward="false" selection-start-line="68" selection-start-column="38" selection-end-line="68" selection-end-column="38" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/tempfiles/verify.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/all_app/user/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-531">
+          <caret line="52" column="45" lean-forward="false" selection-start-line="52" selection-start-column="45" selection-end-line="52" selection-end-column="45" />
+          <folding>
+            <element signature="e#3397#4793#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DevOps/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="206" column="14" lean-forward="false" selection-start-line="206" selection-start-column="0" selection-end-line="206" selection-end-column="14" />
+          <folding>
+            <element signature="e#5763#6476#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

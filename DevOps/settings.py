@@ -199,9 +199,12 @@ SESSION_COOKIE_AGE = 24 * 60 * 60  # 会话cookie过期时间（秒）
 SESSION_TIME_OUT = 48 * 60 * 60
 
 # 一些自定义设置
-VERIFY_IMG_PATH = os.path.join(MEDIA_ROOT, 'tempfiles', 'login_verify', 'verify.jpg')  # 验证码生成路径
 TIME_FORMAT = "%Y-%m-%d %H:%M:%S"  # 格式化时间格式化
 ACTION_DICT = {'add': '增加', 'delete': '删除', 'change': '修改', 'read': '查询'}  # 模型权限转换
+LOCK_TIME = 5    # 锁定时间限制(单位是分钟)
+LOGIN_FAILED_TIMES_LIMIT = 5    # 密码错误限制次数
+VERIFY_IMG_PATH = os.path.join(MEDIA_ROOT, 'tempfiles', 'verify.jpg')  # 验证码生成路径
+VERIFY_IMG_URL = '/media/tempfiles/verify.jpg'  # 验证码生成url
 
 # log config
 LOGGING = {

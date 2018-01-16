@@ -25,14 +25,13 @@ class UserViewSet(viewsets.ModelViewSet):
     @list_route(methods=["POST"], permission_classes=(AllowAny,))
     def login(self, request):
         """登录接口"""
-        if request.META.has_key('HTTP_X_FORWARDED_FOR'):
+        if 'HTTP_X_FORWARDED_FOR' in request.META:
             request_ip = request.META['HTTP_X_FORWARDED_FOR']
         else:
             request_ip = request.META['REMOTE_ADDR']
-
         username = request.data.get('username', '')
         password = request.data.get('password', '')
-        verify_code = request.data.get('verifyCode', '')
+        verify_code = request.data.get('verify_code', '')
 
         # 失败次数和锁定时间
         login_fail_limit_times = settings.LOGIN_FAILED_TIMES_LIMIT
@@ -49,7 +48,7 @@ class UserViewSet(viewsets.ModelViewSet):
         if cache.get('verify_%s' % request_ip) is not None:
             result_data['need_verify'] = True
             verify = cache.get('verify_%s' % request_ip)
-            if str(verify).lower() != str(verify_code).lower():
+            if str.lower(verify).encode('utf-8') != str.lower(verify_code).encode('utf-8'):
                 # 重新生成验证码
                 img, code = gvcode.generate()
                 img.save(settings.VERIFY_IMG_PATH)
